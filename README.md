@@ -66,7 +66,4 @@ Setelah 10 EA (atau kumpulan 20 EA kelas) terkumpul, langkah berikutnya:
 
 ## Referensi
 
-- Channel referensi wajib: **Rene Balke** (pemrograman MQL5/EA).
-- Channel referensi tambahan (pilih salah satu atau lebih, contoh): **IQCapital**, atau channel lain yang membahas strategi trading + implementasi EA MT5.
-- Daftar pembagian channel/strategi per mahasiswa: lihat spreadsheet tugas kelas.
-- Kata kunci untuk riset tahap optimasi: *"optimasi Expert Advisor MT5"*, *"MT5 Strategy Tester optimization"*, *"forward testing Expert Advisor"*, *"walk-forward optimization MT5"*.
+- Channel referensi utama: **Rene Balke** (pemrograman MQL5/EA).

@@ -25,7 +25,7 @@
 //|   - Basic broker "minimum stop distance" safety check before      |
 //|     sending Stop Loss / Take Profit levels.                       |
 //+------------------------------------------------------------------+
-#property copyright "Educational example based on an MQL5 tutorial"
+#property copyright "marcoyap41"
 #property version   "1.00"
 
 // CTrade is a ready-made helper class (provided by MetaTrader itself)
