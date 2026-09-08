@@ -11,9 +11,9 @@
   - Stop Loss / Take Profit otomatis disesuaikan agar tidak melanggar jarak minimum (`SYMBOL_TRADE_STOPS_LEVEL`) yang ditetapkan broker.
 - **Parameter input penting:** `InpLots`, `InpFastMAPeriod`, `InpSlowMAPeriod`, `InpMAMethod`, `InpAppliedPrice`, `InpStopLossPts`, `InpTakeProfitPts`, `InpSlippagePts`.
 
-## EA02 - RSI Trend
+## EA02 - RSI Mean Reversion
 
-- **File:** [`../EAs/EA02_RSI_Trend_EA.mq5`](../EAs/EA02_RSI_Trend_EA.mq5)
+- **File:** [`../EAs/EA02_RSI_Mean_Reversion_EA.mq5`](../EAs/EA02_RSI_Mean_Reversion_EA.mq5)
 
 - **Logika:** Menggunakan **Relative Strength Index (RSI)** sebagai indikator utama untuk menghasilkan sinyal **Buy** dan **Sell**. Sinyal **Buy** muncul ketika RSI berada di bawah level *oversold* yang ditentukan, sedangkan sinyal **Sell** muncul ketika RSI berada di atas level *overbought* yang ditentukan. Setelah sinyal terjadi, RSI harus kembali melewati level tengah (default 50) sebelum sinyal berikutnya dapat diaktifkan kembali.
 
