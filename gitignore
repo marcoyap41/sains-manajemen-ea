@@ -1,0 +1,12 @@
+# Compiled MQL5 binaries (regenerated automatically by MetaEditor on compile)
+*.ex5
+*.ex4
+
+# MetaTrader / Strategy Tester logs & cache
+*.log
+Tester/
+Logs/
+
+# OS files
+.DS_Store
+Thumbs.db
