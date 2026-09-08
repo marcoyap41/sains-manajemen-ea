@@ -21,7 +21,7 @@ Repositori ini berisi tugas mata kuliah: membangun **10 Expert Advisor (EA)** un
 
 | # | Nama EA | Strategi | Sumber Referensi | Status |
 |---|---------|----------|-------------------|--------|
-| 1 | EA01_MA_Crossover | Cross Moving Average (Fast MA vs Slow MA) | René Balke - Fx Bot Trading (https://www.youtube.com/watch?v=Oe1JU-twbBg) | ✅ DONE |
+| 1 | EA01_MA_Crossover | Cross Moving Average (Fast MA vs Slow MA) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=Oe1JU-twbBg) | ✅ DONE |
 | 2 | — | — | — | ⬜ TO-DO |
 | 3 | — | — | — | ⬜ TO-DO |
 | 4 | — | — | — | ⬜ TO-DO |
