@@ -1,6 +1,6 @@
 # Project 10 Expert Advisor (EA) dengan Bantuan AI
-Nama  : Marco Christian
-NIM   : 24/539714/PA/22915
+Nama  : Marco Christian <br>
+NIM   : 24/539714/PA/22915 <br>
 Kelas : Sains Manajemen KOMCS
 
 Repositori ini berisi tugas mata kuliah Sains Manajemen KOMCS Ilmu Komputer UGM: membangun **10 Expert Advisor (EA)** untuk MetaTrader 5, masing-masing dibuat dengan merefer strategi dari satu channel YouTube trading/programming (mis. **Rene Balke**, **IQCapital**, atau channel lain), lalu dibangun ulang kodenya dengan bantuan AI. Tahap berikutnya dari proyek ini adalah melakukan **optimasi parameter** pada tiap EA menggunakan MetaTrader 5 Strategy Tester, sehingga dapat ditemukan beberapa EA yang **profitable dan robust**.
