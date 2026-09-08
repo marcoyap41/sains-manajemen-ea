@@ -29,15 +29,15 @@ Repositori ini berisi tugas mata kuliah Sains Manajemen KOMCS Ilmu Komputer UGM:
 | # | Nama EA | Strategi | Sumber Referensi | Status |
 |---|---------|----------|-------------------|--------|
 | 1 | EA01_MA_Crossover_EA | Cross Moving Average (Fast MA vs Slow MA) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=Oe1JU-twbBg) | ✅ DONE |
-| 2 | EA02_RSI_Trend_EA | RSI Overbought/Oversold with MA Filter | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=uexbULNv7YI) | ✅ DONE |
-| 3 | - | - | - | ⬜ TO-DO |
-| 4 | - | - | - | ⬜ TO-DO |
-| 5 | - | - | - | ⬜ TO-DO |
-| 6 | - | - | - | ⬜ TO-DO |
-| 7 | - | - | - | ⬜ TO-DO |
-| 8 | - | - | - | ⬜ TO-DO |
-| 9 | - | - | - | ⬜ TO-DO |
-| 10 | - | - | - | ⬜ TO-DO |
+| 2 | EA02_RSI_Mean_Reversion_EA | RSI Overbought/Oversold with MA Filter | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=uexbULNv7YI) | ✅ DONE |
+| 3 | EA03_MACD_EMA200_Crossover_EA | MACD Crossover + EMA 200 Trend Filter | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=ab3JWfkUr-A) | ✅ DONE |
+| 4 | EA04_Bollinger_Band_Mean_Reversion_EA | Bollinger Band Mean Reversion + MA Filter | [René Balke - Fx Bot Trading]() | ✅ DONE |
+| 5 | EA05_Range_Breakout_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
+| 6 | EA06_ATR_Candle_Breakout_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
+| 7 | EA07_Market_Structure_Trend_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
+| 8 | EA08_Turnaround_Tuesday_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
+| 9 | EA09_Go_Long_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
+| 10 | EA10_Turtle_Trading_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
 
 ## Cara Menambahkan EA Berikutnya
 
