@@ -9,8 +9,8 @@ Repositori ini berisi tugas mata kuliah: membangun **10 Expert Advisor (EA)** un
 ├── README.md
 ├── EAs/
 │   ├── EA01_MA_Crossover.mq5   # Sudah selesai — lihat detail di bawah
-│   ├── EA02_....mq5            # TODO
-│   ├── EA03_....mq5            # TODO
+│   ├── EA02_....mq5            # TO-DO
+│   ├── EA03_....mq5            # TO-DO
 │   └── ...                     # sampai EA10
 ├── docs/
 │   └── BACKTESTING.md          # Panduan langkah-demi-langkah backtest di MT5
@@ -21,22 +21,22 @@ Repositori ini berisi tugas mata kuliah: membangun **10 Expert Advisor (EA)** un
 
 | # | Nama EA | Strategi | Sumber Referensi | Status |
 |---|---------|----------|-------------------|--------|
-| 1 | EA01_MA_Crossover | Cross Moving Average (Fast MA vs Slow MA) | Tutorial pemrograman MQL5 (channel referensi tugas) | ✅ Selesai |
-| 2 | — | — | — | ⬜ TODO |
-| 3 | — | — | — | ⬜ TODO |
-| 4 | — | — | — | ⬜ TODO |
-| 5 | — | — | — | ⬜ TODO |
-| 6 | — | — | — | ⬜ TODO |
-| 7 | — | — | — | ⬜ TODO |
-| 8 | — | — | — | ⬜ TODO |
-| 9 | — | — | — | ⬜ TODO |
-| 10 | — | — | — | ⬜ TODO |
+| 1 | EA01_MA_Crossover | Cross Moving Average (Fast MA vs Slow MA) | René Balke - Fx Bot Trading (https://www.youtube.com/watch?v=Oe1JU-twbBg) | ✅ DONE |
+| 2 | — | — | — | ⬜ TO-DO |
+| 3 | — | — | — | ⬜ TO-DO |
+| 4 | — | — | — | ⬜ TO-DO |
+| 5 | — | — | — | ⬜ TO-DO |
+| 6 | — | — | — | ⬜ TO-DO |
+| 7 | — | — | — | ⬜ TO-DO |
+| 8 | — | — | — | ⬜ TO-DO |
+| 9 | — | — | — | ⬜ TO-DO |
+| 10 | — | — | — | ⬜ TO-DO |
 
 > Update tabel ini setiap kali sebuah EA baru selesai dibuat. Isi kolom "Sumber Referensi" dengan nama channel + judul video yang jadi acuan strategi.
 
 ## EA01 — Moving Average Crossover
 
-- **File:** [`EAs/EA01_MA_Crossover.mq5`](EAs/EA01_MA_Crossover.mq5)
+- **File:** [`EAs/MA_Crossover.mq5`](EAs/MA_Crossover.mq5)
 - **Logika:** Menggunakan dua Moving Average (MA cepat & MA lambat). Sinyal **Buy** saat MA cepat memotong ke atas MA lambat, sinyal **Sell** saat MA cepat memotong ke bawah MA lambat. Sinyal dievaluasi hanya pada candle yang sudah **tertutup** (bukan candle yang sedang berjalan) agar tidak "repaint".
 - **Fitur keamanan:**
   - Magic Number bisa diatur lewat input (`InpMagicNumber`), sehingga EA hanya membuka/menutup/mengubah posisi miliknya sendiri dan tidak akan mengganggu EA lain yang berjalan di akun yang sama.
