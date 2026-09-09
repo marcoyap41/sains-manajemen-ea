@@ -16,7 +16,8 @@ Repositori ini berisi tugas mata kuliah Sains Manajemen KOMCS Ilmu Komputer UGM:
 │   ├── EA03_....mq5            
 │   └── ...                    
 ├── docs/
-│   └── BACKTESTING.md          # Panduan langkah-demi-langkah backtest di MT5
+│   ├── BACKTESTING.md          # Panduan langkah-demi-langkah backtest di MT5
+│   └── EA_DETAILS.md           # Deskripsi detail tiap EA
 └── results/                    
     ├── EA01_MA_Crossover_Backtest.png
     ├── EA02_...png
@@ -31,13 +32,13 @@ Repositori ini berisi tugas mata kuliah Sains Manajemen KOMCS Ilmu Komputer UGM:
 | 1 | EA01_MA_Crossover_EA | Cross Moving Average (Fast MA vs Slow MA) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=Oe1JU-twbBg) | ✅ DONE |
 | 2 | EA02_RSI_Mean_Reversion_EA | RSI Overbought/Oversold with MA Filter | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=uexbULNv7YI) | ✅ DONE |
 | 3 | EA03_MACD_EMA200_Crossover_EA | MACD Crossover + EMA 200 Trend Filter | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=ab3JWfkUr-A) | ✅ DONE |
-| 4 | EA04_Bollinger_Band_Mean_Reversion_EA | Bollinger Band Mean Reversion + MA Filter | [René Balke - Fx Bot Trading]() | ✅ DONE |
-| 5 | EA05_Range_Breakout_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
-| 6 | EA06_ATR_Momentum_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
-| 7 | EA07_Market_Structure_Trend_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
-| 8 | EA08_Turnaround_Tuesday_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
-| 9 | EA09_Go_Long_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
-| 10 | EA10_Turtle_Trading_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
+| 4 | EA04_Bollinger_Band_Mean_Reversion_EA | Bollinger Band Mean Reversion + MA Filter | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=kkRElHFcyIw&list=PLeQQbTeiG3sBGr1XFidXERIPwBuzXlAiQ) | ✅ DONE |
+| 5 | EA05_RangeBreakout_EA | Time-based Range Breakout (Buy Stop/Sell Stop di batas range sesi + force-close sesi) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=WTn0NQtguoY) | ✅ DONE |
+| 6 | EA06_ATRMomentum_EA | ATR Momentum Breakout (candle sinyal: range > ATR × multiplier, close dekat ekstrem candle) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=clNEYz_yUQY) | ✅ DONE |
+| 7 | EA07_MarketStructure_Trend_EA | Market Structure Trend Following (swing high/low 2 timeframe: Trend + Signal) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=mGG0nu8A9FU) | ✅ DONE |
+| 8 | EA08_TurnaroundTuesday_EA | Turnaround Tuesday (Buy Senin malam, close Selasa malam, filter MA harian) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=3DI7IOyCQLg) | ✅ DONE |
+| 9 | EA09_GoLong_EA | Go Long (Buy di awal sesi, close di akhir hari untuk hindari swap; opsional filter new-high harian) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=ofyCbCNudak) | ✅ DONE |
+| 10 | EA10_NinjaTurtleScalper_EA | Donchian Channel Breakout Scalper (trigger tick/M1/close bar + trailing stop persentase) | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=MRPiKOHvxL0) | ✅ DONE |
 
 ## Cara Menambahkan EA Berikutnya
 
