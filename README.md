@@ -33,7 +33,7 @@ Repositori ini berisi tugas mata kuliah Sains Manajemen KOMCS Ilmu Komputer UGM:
 | 3 | EA03_MACD_EMA200_Crossover_EA | MACD Crossover + EMA 200 Trend Filter | [René Balke - Fx Bot Trading](https://www.youtube.com/watch?v=ab3JWfkUr-A) | ✅ DONE |
 | 4 | EA04_Bollinger_Band_Mean_Reversion_EA | Bollinger Band Mean Reversion + MA Filter | [René Balke - Fx Bot Trading]() | ✅ DONE |
 | 5 | EA05_Range_Breakout_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
-| 6 | EA06_ATR_Candle_Breakout_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
+| 6 | EA06_ATR_Momentum_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
 | 7 | EA07_Market_Structure_Trend_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
 | 8 | EA08_Turnaround_Tuesday_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
 | 9 | EA09_Go_Long_EA | - | [René Balke - Fx Bot Trading]() | TO-DO |
@@ -50,7 +50,7 @@ Repositori ini berisi tugas mata kuliah Sains Manajemen KOMCS Ilmu Komputer UGM:
 
 ## Tahap Optimasi
 
-Setelah 10 EA (atau kumpulan 20 EA kelas) terkumpul, langkah berikutnya:
+Setelah 10 EA terkumpul, langkah berikutnya:
 
 1. Jalankan **Strategy Tester** MT5 dalam mode **Optimization** untuk tiap EA (lihat `docs/BACKTESTING.md` bagian "Optimasi Parameter").
 2. Tentukan rentang parameter yang masuk akal untuk dioptimasi (mis. periode MA, level SL/TP, dsb.) - jangan overfit dengan rentang yang terlalu sempit/spesifik ke satu periode data saja.
